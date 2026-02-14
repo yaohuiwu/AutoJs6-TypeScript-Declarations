@@ -2298,22 +2298,20 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module io {
-				export module function {
-					export class IOConsumer<T>  extends java.lang.Object {
-						public static class: java.lang.Class<org.apache.commons.io.function.IOConsumer<any>>;
-						/**
-						 * Constructs a new instance of the org.apache.commons.io.function.IOConsumer<any> interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
-						 */
-						public constructor(implementation: {
-							accept(param0: T): void;
-							andThen(after: org.apache.commons.io.function.IOConsumer<any>): org.apache.commons.io.function.IOConsumer<T>;
-							lambda$andThen$0(after: org.apache.commons.io.function.IOConsumer<any>, t: any): void;
-						});
-						public constructor();
-						public accept(param0: T): void;
-						public andThen(after: org.apache.commons.io.function.IOConsumer<any>): org.apache.commons.io.function.IOConsumer<T>;
-					}
+			export module io.function {
+				export class IOConsumer<T>  extends java.lang.Object {
+					public static class: java.lang.Class<org.apache.commons.io.function.IOConsumer<any>>;
+					/**
+					 * Constructs a new instance of the org.apache.commons.io.function.IOConsumer<any> interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+					 */
+					public constructor(implementation: {
+						accept(param0: T): void;
+						andThen(after: org.apache.commons.io.function.IOConsumer<any>): org.apache.commons.io.function.IOConsumer<T>;
+						lambda$andThen$0(after: org.apache.commons.io.function.IOConsumer<any>, t: any): void;
+					});
+					public constructor();
+					public accept(param0: T): void;
+					public andThen(after: org.apache.commons.io.function.IOConsumer<any>): org.apache.commons.io.function.IOConsumer<T>;
 				}
 			}
 		}
@@ -2323,46 +2321,44 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module io {
-				export module function {
-					export class IOFunction<T, R>  extends java.lang.Object {
-						public static class: java.lang.Class<org.apache.commons.io.function.IOFunction<any,any>>;
-						/**
-						 * Constructs a new instance of the org.apache.commons.io.function.IOFunction<any,any> interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
-						 */
-						public constructor(implementation: {
-							apply(param0: T): R;
-							compose(before: org.apache.commons.io.function.IOFunction<any,any>): org.apache.commons.io.function.IOFunction<any,any>;
-							compose(before: any /* any*/): org.apache.commons.io.function.IOFunction<any,any>;
-							compose(before: org.apache.commons.io.function.IOSupplier<any>): org.apache.commons.io.function.IOSupplier<R>;
-							compose(before: any /* any*/): org.apache.commons.io.function.IOSupplier<R>;
-							andThen(after: org.apache.commons.io.function.IOFunction<any,any>): org.apache.commons.io.function.IOFunction<any,any>;
-							andThen(after: any /* any*/): org.apache.commons.io.function.IOFunction<any,any>;
-							andThen(after: org.apache.commons.io.function.IOConsumer<any>): org.apache.commons.io.function.IOConsumer<T>;
-							andThen(after: any /* any*/): org.apache.commons.io.function.IOConsumer<T>;
-							identity(): org.apache.commons.io.function.IOFunction<any,any>;
-							lambda$identity$8(t: any): any;
-							lambda$andThen$7(after: any /* any*/, t: any): void;
-							lambda$andThen$6(after: org.apache.commons.io.function.IOConsumer<any>, t: any): void;
-							lambda$andThen$5(after: any /* any*/, t: any): any;
-							lambda$andThen$4(after: org.apache.commons.io.function.IOFunction<any,any>, t: any): any;
-							lambda$compose$3(before: any /* any*/): any;
-							lambda$compose$2(before: org.apache.commons.io.function.IOSupplier<any>): any;
-							lambda$compose$1(before: any /* any*/, v: any): any;
-							lambda$compose$0(before: org.apache.commons.io.function.IOFunction<any,any>, v: any): any;
-						});
-						public constructor();
-						public apply(param0: T): R;
-						public andThen(after: org.apache.commons.io.function.IOConsumer<any>): org.apache.commons.io.function.IOConsumer<T>;
-						public static identity(): org.apache.commons.io.function.IOFunction<any,any>;
-						public compose(before: org.apache.commons.io.function.IOSupplier<any>): org.apache.commons.io.function.IOSupplier<R>;
-						public andThen(after: any /* any*/): org.apache.commons.io.function.IOFunction<any,any>;
-						public andThen(after: any /* any*/): org.apache.commons.io.function.IOConsumer<T>;
-						public compose(before: any /* any*/): org.apache.commons.io.function.IOSupplier<R>;
-						public andThen(after: org.apache.commons.io.function.IOFunction<any,any>): org.apache.commons.io.function.IOFunction<any,any>;
-						public compose(before: org.apache.commons.io.function.IOFunction<any,any>): org.apache.commons.io.function.IOFunction<any,any>;
-						public compose(before: any /* any*/): org.apache.commons.io.function.IOFunction<any,any>;
-					}
+			export module io.function {
+				export class IOFunction<T, R>  extends java.lang.Object {
+					public static class: java.lang.Class<org.apache.commons.io.function.IOFunction<any,any>>;
+					/**
+					 * Constructs a new instance of the org.apache.commons.io.function.IOFunction<any,any> interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+					 */
+					public constructor(implementation: {
+						apply(param0: T): R;
+						compose(before: org.apache.commons.io.function.IOFunction<any,any>): org.apache.commons.io.function.IOFunction<any,any>;
+						compose(before: any /* any*/): org.apache.commons.io.function.IOFunction<any,any>;
+						compose(before: org.apache.commons.io.function.IOSupplier<any>): org.apache.commons.io.function.IOSupplier<R>;
+						compose(before: any /* any*/): org.apache.commons.io.function.IOSupplier<R>;
+						andThen(after: org.apache.commons.io.function.IOFunction<any,any>): org.apache.commons.io.function.IOFunction<any,any>;
+						andThen(after: any /* any*/): org.apache.commons.io.function.IOFunction<any,any>;
+						andThen(after: org.apache.commons.io.function.IOConsumer<any>): org.apache.commons.io.function.IOConsumer<T>;
+						andThen(after: any /* any*/): org.apache.commons.io.function.IOConsumer<T>;
+						identity(): org.apache.commons.io.function.IOFunction<any,any>;
+						lambda$identity$8(t: any): any;
+						lambda$andThen$7(after: any /* any*/, t: any): void;
+						lambda$andThen$6(after: org.apache.commons.io.function.IOConsumer<any>, t: any): void;
+						lambda$andThen$5(after: any /* any*/, t: any): any;
+						lambda$andThen$4(after: org.apache.commons.io.function.IOFunction<any,any>, t: any): any;
+						lambda$compose$3(before: any /* any*/): any;
+						lambda$compose$2(before: org.apache.commons.io.function.IOSupplier<any>): any;
+						lambda$compose$1(before: any /* any*/, v: any): any;
+						lambda$compose$0(before: org.apache.commons.io.function.IOFunction<any,any>, v: any): any;
+					});
+					public constructor();
+					public apply(param0: T): R;
+					public andThen(after: org.apache.commons.io.function.IOConsumer<any>): org.apache.commons.io.function.IOConsumer<T>;
+					public static identity(): org.apache.commons.io.function.IOFunction<any,any>;
+					public compose(before: org.apache.commons.io.function.IOSupplier<any>): org.apache.commons.io.function.IOSupplier<R>;
+					public andThen(after: any /* any*/): org.apache.commons.io.function.IOFunction<any,any>;
+					public andThen(after: any /* any*/): org.apache.commons.io.function.IOConsumer<T>;
+					public compose(before: any /* any*/): org.apache.commons.io.function.IOSupplier<R>;
+					public andThen(after: org.apache.commons.io.function.IOFunction<any,any>): org.apache.commons.io.function.IOFunction<any,any>;
+					public compose(before: org.apache.commons.io.function.IOFunction<any,any>): org.apache.commons.io.function.IOFunction<any,any>;
+					public compose(before: any /* any*/): org.apache.commons.io.function.IOFunction<any,any>;
 				}
 			}
 		}
@@ -2372,19 +2368,17 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module io {
-				export module function {
-					export class IOSupplier<T>  extends java.lang.Object {
-						public static class: java.lang.Class<org.apache.commons.io.function.IOSupplier<any>>;
-						/**
-						 * Constructs a new instance of the org.apache.commons.io.function.IOSupplier<any> interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
-						 */
-						public constructor(implementation: {
-							get(): T;
-						});
-						public constructor();
-						public get(): T;
-					}
+			export module io.function {
+				export class IOSupplier<T>  extends java.lang.Object {
+					public static class: java.lang.Class<org.apache.commons.io.function.IOSupplier<any>>;
+					/**
+					 * Constructs a new instance of the org.apache.commons.io.function.IOSupplier<any> interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+					 */
+					public constructor(implementation: {
+						get(): T;
+					});
+					public constructor();
+					public get(): T;
 				}
 			}
 		}

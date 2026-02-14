@@ -6330,19 +6330,17 @@ declare module org {
 
 declare module org {
 	export module kohsuke {
-		export module github {
-			export module function {
-				export class FunctionThrows<T, R, E>  extends java.lang.Object {
-					public static class: java.lang.Class<org.kohsuke.github.function.FunctionThrows<any,any,any>>;
-					/**
-					 * Constructs a new instance of the org.kohsuke.github.function.FunctionThrows<any,any,any> interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
-					 */
-					public constructor(implementation: {
-						apply(param0: T): R;
-					});
-					public constructor();
-					public apply(param0: T): R;
-				}
+		export module github.function {
+			export class FunctionThrows<T, R, E>  extends java.lang.Object {
+				public static class: java.lang.Class<org.kohsuke.github.function.FunctionThrows<any,any,any>>;
+				/**
+				 * Constructs a new instance of the org.kohsuke.github.function.FunctionThrows<any,any,any> interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+				 */
+				public constructor(implementation: {
+					apply(param0: T): R;
+				});
+				public constructor();
+				public apply(param0: T): R;
 			}
 		}
 	}
@@ -6350,19 +6348,17 @@ declare module org {
 
 declare module org {
 	export module kohsuke {
-		export module github {
-			export module function {
-				export class InputStreamFunction<R>  extends org.kohsuke.github.function.FunctionThrows<java.io.InputStream,any,java.io.IOException> {
-					public static class: java.lang.Class<org.kohsuke.github.function.InputStreamFunction<any>>;
-					/**
-					 * Constructs a new instance of the org.kohsuke.github.function.InputStreamFunction<any> interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
-					 */
-					public constructor(implementation: {
-						apply(param0: any): any;
-					});
-					public constructor();
-					public apply(param0: any): any;
-				}
+		export module github.function {
+			export class InputStreamFunction<R>  extends org.kohsuke.github.function.FunctionThrows<java.io.InputStream,any,java.io.IOException> {
+				public static class: java.lang.Class<org.kohsuke.github.function.InputStreamFunction<any>>;
+				/**
+				 * Constructs a new instance of the org.kohsuke.github.function.InputStreamFunction<any> interface with the provided implementation. An empty constructor exists calling super() when extending the interface class.
+				 */
+				public constructor(implementation: {
+					apply(param0: any): any;
+				});
+				public constructor();
+				public apply(param0: any): any;
 			}
 		}
 	}

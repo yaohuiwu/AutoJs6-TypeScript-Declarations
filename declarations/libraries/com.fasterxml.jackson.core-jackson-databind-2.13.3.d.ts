@@ -20883,7 +20883,7 @@ declare module com {
 						public _modifiers: com.fasterxml.jackson.databind.type.TypeModifier[];
 						public _parser: com.fasterxml.jackson.databind.type.TypeParser;
 						public _classLoader: java.lang.ClassLoader;
-						public _fromVariable(context: com.fasterxml.jackson.databind.type.ClassStack, var: java.lang.reflect.TypeVariable<any>, bindings: com.fasterxml.jackson.databind.type.TypeBindings): com.fasterxml.jackson.databind.JavaType;
+						public _fromVariable(context: com.fasterxml.jackson.databind.type.ClassStack, var0: java.lang.reflect.TypeVariable<any>, bindings: com.fasterxml.jackson.databind.type.TypeBindings): com.fasterxml.jackson.databind.JavaType;
 						public withClassLoader(classLoader: java.lang.ClassLoader): com.fasterxml.jackson.databind.type.TypeFactory;
 						public constructor(typeCache: com.fasterxml.jackson.databind.util.LookupCache<any,com.fasterxml.jackson.databind.JavaType>);
 						public withCache(cache: com.fasterxml.jackson.databind.util.LookupCache<any,com.fasterxml.jackson.databind.JavaType>): com.fasterxml.jackson.databind.type.TypeFactory;

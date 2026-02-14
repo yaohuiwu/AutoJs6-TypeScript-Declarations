@@ -364,7 +364,6 @@ declare module kotlin {
 
 declare module kotlin {
 	export module LazyKt__LazyJVMKt {
-export module  {
 		export class WhenMappings extends java.lang.Object {
 			public static class: java.lang.Class<kotlin.LazyKt__LazyJVMKt.WhenMappings>;
 		}
@@ -2432,7 +2431,7 @@ declare module kotlin {
 			public entrySet(): java.util.Set<java.util.Map.Entry<any,any>>;
 			public getMap(): java.util.Map<any,any>;
 			public computeIfAbsent(key: any, mappingFunction: any /* any<any,any>*/): any;
-			public constructor(map: java.util.Map<any,any>, default: kotlin.jvm.functions.Function1<any,any>);
+			public constructor(map: java.util.Map<any,any>, default0: kotlin.jvm.functions.Function1<any,any>);
 			public put(param0: any, param1: any): any;
 			public getOrDefault(key: any, defaultValue: any): any;
 			public toString(): string;
@@ -2638,7 +2637,7 @@ declare module kotlin {
 			public entrySet(): java.util.Set<java.util.Map.Entry<any,any>>;
 			public getMap(): java.util.Map<any,any>;
 			public computeIfAbsent(key: any, mappingFunction: any /* any<any,any>*/): any;
-			public constructor(map: java.util.Map<any,any>, default: kotlin.jvm.functions.Function1<any,any>);
+			public constructor(map: java.util.Map<any,any>, default0: kotlin.jvm.functions.Function1<any,any>);
 			public put(param0: any, param1: any): any;
 			public getOrDefault(key: any, defaultValue: any): any;
 			public toString(): string;
@@ -5434,7 +5433,6 @@ declare module kotlin {
 	export module io {
 		export module path {
 			export module PathsKt__PathRecursiveFunctionsKt {
-export module  {
 				export class WhenMappings extends java.lang.Object {
 					public static class: java.lang.Class<kotlin.io.path.PathsKt__PathRecursiveFunctionsKt.WhenMappings>;
 				}
@@ -10715,7 +10713,6 @@ declare module kotlin {
 declare module kotlin {
 	export module reflect {
 		export module TypesJVMKt {
-export module  {
 			export class WhenMappings extends java.lang.Object {
 				public static class: java.lang.Class<kotlin.reflect.TypesJVMKt.WhenMappings>;
 			}
@@ -11775,7 +11772,6 @@ declare module kotlin {
 declare module kotlin {
 	export module time {
 		export module DurationUnitKt__DurationUnitJvmKt {
-export module  {
 			export class WhenMappings extends java.lang.Object {
 				public static class: java.lang.Class<kotlin.time.DurationUnitKt__DurationUnitJvmKt.WhenMappings>;
 			}
@@ -11786,7 +11782,6 @@ export module  {
 declare module kotlin {
 	export module time {
 		export module DurationUnitKt__DurationUnitKt {
-export module  {
 			export class WhenMappings extends java.lang.Object {
 				public static class: java.lang.Class<kotlin.time.DurationUnitKt__DurationUnitKt.WhenMappings>;
 			}

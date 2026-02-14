@@ -1156,7 +1156,7 @@ declare module org {
 				public static throwAsScriptRuntimeEx(e: java.lang.Throwable): java.lang.RuntimeException;
 				public static reportError(message: string): void;
 				public decompileScript(script: org.mozilla.javascript.Script, indent: number): string;
-				public setDebugger(debugger: org.mozilla.javascript.debug.Debugger, contextData: any): void;
+				public setDebugger(debugger0: org.mozilla.javascript.debug.Debugger, contextData: any): void;
 				public static exit(): void;
 				public setLocale(loc: java.util.Locale): java.util.Locale;
 				public static getUndefinedValue(): any;

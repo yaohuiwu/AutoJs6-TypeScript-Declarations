@@ -801,63 +801,58 @@ declare module com {
 	export module google {
 		export module gson {
 			export module internal {
-				export module  {
-					export module Gson {
-export module  {
-						export class Preconditions extends java.lang.Object {
-							public static class: java.lang.Class<com.google.gson.internal..Gson.Preconditions>;
-							/** @deprecated */
-							public static checkNotNull(obj: any): any;
-							public static checkArgument(condition: boolean): void;
-						}
-						export class Types extends java.lang.Object {
-							public static class: java.lang.Class<com.google.gson.internal..Gson.Types>;
-							public static getArrayComponentType(array: java.lang.reflect.Type): java.lang.reflect.Type;
-							public static equals(a: java.lang.reflect.Type, b: java.lang.reflect.Type): boolean;
-							public equals(obj: any): boolean;
-							public static newParameterizedTypeWithOwner(ownerType: java.lang.reflect.Type, rawType: java.lang.reflect.Type, ...typeArguments: java.lang.reflect.Type[]): java.lang.reflect.ParameterizedType;
-							public static getRawType(type: java.lang.reflect.Type): java.lang.Class<any>;
-							public static getCollectionElementType(context: java.lang.reflect.Type, contextRawType: java.lang.Class<any>): java.lang.reflect.Type;
-							public static getMapKeyAndValueTypes(context: java.lang.reflect.Type, contextRawType: java.lang.Class<any>): java.lang.reflect.Type[];
-							public static canonicalize(type: java.lang.reflect.Type): java.lang.reflect.Type;
-							public static typeToString(type: java.lang.reflect.Type): string;
-							public static supertypeOf(bound: java.lang.reflect.Type): java.lang.reflect.WildcardType;
-							public static arrayOf(componentType: java.lang.reflect.Type): java.lang.reflect.GenericArrayType;
-							public static subtypeOf(bound: java.lang.reflect.Type): java.lang.reflect.WildcardType;
-							public static resolve(context: java.lang.reflect.Type, contextRawType: java.lang.Class<any>, toResolve: java.lang.reflect.Type): java.lang.reflect.Type;
-						}
-						export module Types {
-							export class GenericArrayTypeImpl extends java.lang.Object implements java.lang.reflect.GenericArrayType, java.io.Serializable {
-								public static class: java.lang.Class<com.google.gson.internal..Gson.Types.GenericArrayTypeImpl>;
-								public toString(): string;
-								public equals(obj: any): boolean;
-								public equals(o: any): boolean;
-								public hashCode(): number;
-								public getGenericComponentType(): java.lang.reflect.Type;
-								public constructor(componentType: java.lang.reflect.Type);
-							}
-							export class ParameterizedTypeImpl extends java.lang.Object implements java.lang.reflect.ParameterizedType, java.io.Serializable {
-								public static class: java.lang.Class<com.google.gson.internal..Gson.Types.ParameterizedTypeImpl>;
-								public toString(): string;
-								public equals(obj: any): boolean;
-								public getActualTypeArguments(): java.lang.reflect.Type[];
-								public constructor(ownerType: java.lang.reflect.Type, rawType: java.lang.reflect.Type, ...typeArguments: java.lang.reflect.Type[]);
-								public getRawType(): java.lang.reflect.Type;
-								public getOwnerType(): java.lang.reflect.Type;
-								public hashCode(): number;
-								public equals(other: any): boolean;
-							}
-							export class WildcardTypeImpl extends java.lang.Object implements java.lang.reflect.WildcardType, java.io.Serializable {
-								public static class: java.lang.Class<com.google.gson.internal..Gson.Types.WildcardTypeImpl>;
-								public getUpperBounds(): java.lang.reflect.Type[];
-								public toString(): string;
-								public getLowerBounds(): java.lang.reflect.Type[];
-								public equals(obj: any): boolean;
-								public constructor(upperBounds: java.lang.reflect.Type[], lowerBounds: java.lang.reflect.Type[]);
-								public hashCode(): number;
-								public equals(other: any): boolean;
-							}
-						}
+				export class $Gson$Preconditions extends java.lang.Object {
+					public static class: java.lang.Class<com.google.gson.internal.$Gson$Preconditions>;
+					/** @deprecated */
+					public static checkNotNull(obj: any): any;
+					public static checkArgument(condition: boolean): void;
+				}
+				export class $Gson$Types extends java.lang.Object {
+					public static class: java.lang.Class<com.google.gson.internal.$Gson$Types>;
+					public static getArrayComponentType(array: java.lang.reflect.Type): java.lang.reflect.Type;
+					public static equals(a: java.lang.reflect.Type, b: java.lang.reflect.Type): boolean;
+					public equals(obj: any): boolean;
+					public static newParameterizedTypeWithOwner(ownerType: java.lang.reflect.Type, rawType: java.lang.reflect.Type, ...typeArguments: java.lang.reflect.Type[]): java.lang.reflect.ParameterizedType;
+					public static getRawType(type: java.lang.reflect.Type): java.lang.Class<any>;
+					public static getCollectionElementType(context: java.lang.reflect.Type, contextRawType: java.lang.Class<any>): java.lang.reflect.Type;
+					public static getMapKeyAndValueTypes(context: java.lang.reflect.Type, contextRawType: java.lang.Class<any>): java.lang.reflect.Type[];
+					public static canonicalize(type: java.lang.reflect.Type): java.lang.reflect.Type;
+					public static typeToString(type: java.lang.reflect.Type): string;
+					public static supertypeOf(bound: java.lang.reflect.Type): java.lang.reflect.WildcardType;
+					public static arrayOf(componentType: java.lang.reflect.Type): java.lang.reflect.GenericArrayType;
+					public static subtypeOf(bound: java.lang.reflect.Type): java.lang.reflect.WildcardType;
+					public static resolve(context: java.lang.reflect.Type, contextRawType: java.lang.Class<any>, toResolve: java.lang.reflect.Type): java.lang.reflect.Type;
+				}
+				export module $Gson$Types {
+					export class GenericArrayTypeImpl extends java.lang.Object implements java.lang.reflect.GenericArrayType, java.io.Serializable {
+						public static class: java.lang.Class<com.google.gson.internal.$Gson$Types.GenericArrayTypeImpl>;
+						public toString(): string;
+						public equals(obj: any): boolean;
+						public equals(o: any): boolean;
+						public hashCode(): number;
+						public getGenericComponentType(): java.lang.reflect.Type;
+						public constructor(componentType: java.lang.reflect.Type);
+					}
+					export class ParameterizedTypeImpl extends java.lang.Object implements java.lang.reflect.ParameterizedType, java.io.Serializable {
+						public static class: java.lang.Class<com.google.gson.internal.$Gson$Types.ParameterizedTypeImpl>;
+						public toString(): string;
+						public equals(obj: any): boolean;
+						public getActualTypeArguments(): java.lang.reflect.Type[];
+						public constructor(ownerType: java.lang.reflect.Type, rawType: java.lang.reflect.Type, ...typeArguments: java.lang.reflect.Type[]);
+						public getRawType(): java.lang.reflect.Type;
+						public getOwnerType(): java.lang.reflect.Type;
+						public hashCode(): number;
+						public equals(other: any): boolean;
+					}
+					export class WildcardTypeImpl extends java.lang.Object implements java.lang.reflect.WildcardType, java.io.Serializable {
+						public static class: java.lang.Class<com.google.gson.internal.$Gson$Types.WildcardTypeImpl>;
+						public getUpperBounds(): java.lang.reflect.Type[];
+						public toString(): string;
+						public getLowerBounds(): java.lang.reflect.Type[];
+						public equals(obj: any): boolean;
+						public constructor(upperBounds: java.lang.reflect.Type[], lowerBounds: java.lang.reflect.Type[]);
+						public hashCode(): number;
+						public equals(other: any): boolean;
 					}
 				}
 			}

@@ -4042,8 +4042,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class BooleanConsumer extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.BooleanConsumer>;
 						/**
@@ -4063,7 +4062,6 @@ declare module org {
 						public accept(param0: boolean): void;
 						public andThen(after: org.apache.commons.lang3.function.BooleanConsumer): org.apache.commons.lang3.function.BooleanConsumer;
 					}
-				}
 			}
 		}
 	}
@@ -4072,13 +4070,11 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class Consumers extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.Consumers>;
 						public static nop(): any /* any*/;
 					}
-				}
 			}
 		}
 	}
@@ -4087,8 +4083,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class Failable extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.Failable>;
 						public static asSupplier(supplier: org.apache.commons.lang3.function.FailableSupplier<any,any>): any /* any*/;
@@ -4124,7 +4119,6 @@ declare module org {
 						public static getAsDouble(supplier: org.apache.commons.lang3.function.FailableDoubleSupplier<any>): number;
 						public static test(predicate: org.apache.commons.lang3.function.FailableBiPredicate<any,any,any>, object1: any, object2: any): boolean;
 					}
-				}
 			}
 		}
 	}
@@ -4133,8 +4127,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableBiConsumer<T, U, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableBiConsumer<any,any,any>>;
 						/**
@@ -4154,7 +4147,6 @@ declare module org {
 						public accept(param0: T, param1: U): void;
 						public andThen(after: org.apache.commons.lang3.function.FailableBiConsumer<any,any,E>): org.apache.commons.lang3.function.FailableBiConsumer<T,U,E>;
 					}
-				}
 			}
 		}
 	}
@@ -4163,8 +4155,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableBiFunction<T, U, R, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableBiFunction<any,any,any,any>>;
 						/**
@@ -4184,7 +4175,6 @@ declare module org {
 						public apply(param0: T, param1: U): R;
 						public static nop(): org.apache.commons.lang3.function.FailableBiFunction<any,any,any,any>;
 					}
-				}
 			}
 		}
 	}
@@ -4193,8 +4183,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableBiPredicate<T, U, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableBiPredicate<any,any,any>>;
 						/**
@@ -4224,7 +4213,6 @@ declare module org {
 						public negate(): org.apache.commons.lang3.function.FailableBiPredicate<T,U,E>;
 						public or(other: org.apache.commons.lang3.function.FailableBiPredicate<any,any,E>): org.apache.commons.lang3.function.FailableBiPredicate<T,U,E>;
 					}
-				}
 			}
 		}
 	}
@@ -4233,8 +4221,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableBooleanSupplier<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableBooleanSupplier<any>>;
 						/**
@@ -4246,7 +4233,6 @@ declare module org {
 						public constructor();
 						public getAsBoolean(): boolean;
 					}
-				}
 			}
 		}
 	}
@@ -4255,8 +4241,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableCallable<R, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableCallable<any,any>>;
 						/**
@@ -4268,7 +4253,6 @@ declare module org {
 						public constructor();
 						public call(): R;
 					}
-				}
 			}
 		}
 	}
@@ -4277,8 +4261,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableConsumer<T, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableConsumer<any,any>>;
 						/**
@@ -4297,7 +4280,6 @@ declare module org {
 						public static nop(): org.apache.commons.lang3.function.FailableConsumer<any,any>;
 						public andThen(after: org.apache.commons.lang3.function.FailableConsumer<any,E>): org.apache.commons.lang3.function.FailableConsumer<T,E>;
 					}
-				}
 			}
 		}
 	}
@@ -4306,8 +4288,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableDoubleBinaryOperator<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableDoubleBinaryOperator<any>>;
 						/**
@@ -4320,7 +4301,6 @@ declare module org {
 						public applyAsDouble(param0: number, param1: number): number;
 					}
 				}
-			}
 		}
 	}
 }
@@ -4328,8 +4308,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableDoubleConsumer<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableDoubleConsumer<any>>;
 						/**
@@ -4349,7 +4328,6 @@ declare module org {
 						public static nop(): org.apache.commons.lang3.function.FailableDoubleConsumer<any>;
 						public accept(param0: number): void;
 					}
-				}
 			}
 		}
 	}
@@ -4358,8 +4336,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableDoubleFunction<R, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableDoubleFunction<any,any>>;
 						/**
@@ -4376,7 +4353,6 @@ declare module org {
 						public apply(param0: number): R;
 						public static nop(): org.apache.commons.lang3.function.FailableDoubleFunction<any,any>;
 					}
-				}
 			}
 		}
 	}
@@ -4385,8 +4361,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableDoublePredicate<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableDoublePredicate<any>>;
 						/**
@@ -4416,7 +4391,6 @@ declare module org {
 						public negate(): org.apache.commons.lang3.function.FailableDoublePredicate<E>;
 						public or(other: org.apache.commons.lang3.function.FailableDoublePredicate<E>): org.apache.commons.lang3.function.FailableDoublePredicate<E>;
 					}
-				}
 			}
 		}
 	}
@@ -4425,8 +4399,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableDoubleSupplier<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableDoubleSupplier<any>>;
 						/**
@@ -4438,7 +4411,6 @@ declare module org {
 						public constructor();
 						public getAsDouble(): number;
 					}
-				}
 			}
 		}
 	}
@@ -4447,8 +4419,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableDoubleToIntFunction<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableDoubleToIntFunction<any>>;
 						/**
@@ -4465,7 +4436,6 @@ declare module org {
 						public static nop(): org.apache.commons.lang3.function.FailableDoubleToIntFunction<any>;
 						public applyAsInt(param0: number): number;
 					}
-				}
 			}
 		}
 	}
@@ -4474,8 +4444,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableDoubleToLongFunction<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableDoubleToLongFunction<any>>;
 						/**
@@ -4492,7 +4461,6 @@ declare module org {
 						public static nop(): org.apache.commons.lang3.function.FailableDoubleToLongFunction<any>;
 						public applyAsLong(param0: number): number;
 					}
-				}
 			}
 		}
 	}
@@ -4501,8 +4469,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableDoubleUnaryOperator<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableDoubleUnaryOperator<any>>;
 						/**
@@ -4528,7 +4495,6 @@ declare module org {
 						public applyAsDouble(param0: number): number;
 						public static nop(): org.apache.commons.lang3.function.FailableDoubleUnaryOperator<any>;
 					}
-				}
 			}
 		}
 	}
@@ -4537,8 +4503,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableFunction<T, R, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableFunction<any,any,any>>;
 						/**
@@ -4564,7 +4529,6 @@ declare module org {
 						public static nop(): org.apache.commons.lang3.function.FailableFunction<any,any,any>;
 						public andThen(after: org.apache.commons.lang3.function.FailableFunction<any,any,any>): org.apache.commons.lang3.function.FailableFunction<any,any,any>;
 					}
-				}
 			}
 		}
 	}
@@ -4573,8 +4537,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableIntBinaryOperator<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableIntBinaryOperator<any>>;
 						/**
@@ -4586,7 +4549,6 @@ declare module org {
 						public constructor();
 						public applyAsInt(param0: number, param1: number): number;
 					}
-				}
 			}
 		}
 	}
@@ -4595,8 +4557,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableIntConsumer<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableIntConsumer<any>>;
 						/**
@@ -4616,7 +4577,6 @@ declare module org {
 						public andThen(after: org.apache.commons.lang3.function.FailableIntConsumer<E>): org.apache.commons.lang3.function.FailableIntConsumer<E>;
 						public static nop(): org.apache.commons.lang3.function.FailableIntConsumer<any>;
 					}
-				}
 			}
 		}
 	}
@@ -4625,8 +4585,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableIntFunction<R, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableIntFunction<any,any>>;
 						/**
@@ -4643,7 +4602,6 @@ declare module org {
 						public static nop(): org.apache.commons.lang3.function.FailableIntFunction<any,any>;
 						public apply(param0: number): R;
 					}
-				}
 			}
 		}
 	}
@@ -4652,8 +4610,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableIntPredicate<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableIntPredicate<any>>;
 						/**
@@ -4683,7 +4640,6 @@ declare module org {
 						public test(param0: number): boolean;
 						public negate(): org.apache.commons.lang3.function.FailableIntPredicate<E>;
 					}
-				}
 			}
 		}
 	}
@@ -4692,8 +4648,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableIntSupplier<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableIntSupplier<any>>;
 						/**
@@ -4705,7 +4660,6 @@ declare module org {
 						public constructor();
 						public getAsInt(): number;
 					}
-				}
 			}
 		}
 	}
@@ -4714,8 +4668,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableIntToDoubleFunction<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableIntToDoubleFunction<any>>;
 						/**
@@ -4732,7 +4685,6 @@ declare module org {
 						public static nop(): org.apache.commons.lang3.function.FailableIntToDoubleFunction<any>;
 						public applyAsDouble(param0: number): number;
 					}
-				}
 			}
 		}
 	}
@@ -4741,8 +4693,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableIntToLongFunction<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableIntToLongFunction<any>>;
 						/**
@@ -4759,7 +4710,6 @@ declare module org {
 						public static nop(): org.apache.commons.lang3.function.FailableIntToLongFunction<any>;
 						public applyAsLong(param0: number): number;
 					}
-				}
 			}
 		}
 	}
@@ -4768,8 +4718,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableIntUnaryOperator<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableIntUnaryOperator<any>>;
 						/**
@@ -4795,7 +4744,6 @@ declare module org {
 						public applyAsInt(param0: number): number;
 						public static identity(): org.apache.commons.lang3.function.FailableIntUnaryOperator<any>;
 					}
-				}
 			}
 		}
 	}
@@ -4804,8 +4752,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableLongBinaryOperator<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableLongBinaryOperator<any>>;
 						/**
@@ -4817,7 +4764,6 @@ declare module org {
 						public constructor();
 						public applyAsLong(param0: number, param1: number): number;
 					}
-				}
 			}
 		}
 	}
@@ -4826,8 +4772,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableLongConsumer<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableLongConsumer<any>>;
 						/**
@@ -4847,7 +4792,6 @@ declare module org {
 						public andThen(after: org.apache.commons.lang3.function.FailableLongConsumer<E>): org.apache.commons.lang3.function.FailableLongConsumer<E>;
 						public accept(param0: number): void;
 					}
-				}
 			}
 		}
 	}
@@ -4856,8 +4800,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableLongFunction<R, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableLongFunction<any,any>>;
 						/**
@@ -4874,7 +4817,6 @@ declare module org {
 						public apply(param0: number): R;
 						public static nop(): org.apache.commons.lang3.function.FailableLongFunction<any,any>;
 					}
-				}
 			}
 		}
 	}
@@ -4883,8 +4825,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableLongPredicate<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableLongPredicate<any>>;
 						/**
@@ -4914,7 +4855,6 @@ declare module org {
 						public test(param0: number): boolean;
 						public or(other: org.apache.commons.lang3.function.FailableLongPredicate<E>): org.apache.commons.lang3.function.FailableLongPredicate<E>;
 					}
-				}
 			}
 		}
 	}
@@ -4923,8 +4863,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableLongSupplier<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableLongSupplier<any>>;
 						/**
@@ -4936,7 +4875,6 @@ declare module org {
 						public constructor();
 						public getAsLong(): number;
 					}
-				}
 			}
 		}
 	}
@@ -4945,8 +4883,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableLongToDoubleFunction<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableLongToDoubleFunction<any>>;
 						/**
@@ -4963,7 +4900,6 @@ declare module org {
 						public applyAsDouble(param0: number): number;
 						public static nop(): org.apache.commons.lang3.function.FailableLongToDoubleFunction<any>;
 					}
-				}
 			}
 		}
 	}
@@ -4972,8 +4908,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableLongToIntFunction<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableLongToIntFunction<any>>;
 						/**
@@ -4990,7 +4925,6 @@ declare module org {
 						public static nop(): org.apache.commons.lang3.function.FailableLongToIntFunction<any>;
 						public applyAsInt(param0: number): number;
 					}
-				}
 			}
 		}
 	}
@@ -4999,8 +4933,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableLongUnaryOperator<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableLongUnaryOperator<any>>;
 						/**
@@ -5026,7 +4959,6 @@ declare module org {
 						public andThen(after: org.apache.commons.lang3.function.FailableLongUnaryOperator<E>): org.apache.commons.lang3.function.FailableLongUnaryOperator<E>;
 						public static nop(): org.apache.commons.lang3.function.FailableLongUnaryOperator<any>;
 					}
-				}
 			}
 		}
 	}
@@ -5035,8 +4967,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableObjDoubleConsumer<T, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableObjDoubleConsumer<any,any>>;
 						/**
@@ -5053,7 +4984,6 @@ declare module org {
 						public static nop(): org.apache.commons.lang3.function.FailableObjDoubleConsumer<any,any>;
 						public accept(param0: T, param1: number): void;
 					}
-				}
 			}
 		}
 	}
@@ -5062,8 +4992,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableObjIntConsumer<T, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableObjIntConsumer<any,any>>;
 						/**
@@ -5080,7 +5009,6 @@ declare module org {
 						public static nop(): org.apache.commons.lang3.function.FailableObjIntConsumer<any,any>;
 						public accept(param0: T, param1: number): void;
 					}
-				}
 			}
 		}
 	}
@@ -5089,8 +5017,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableObjLongConsumer<T, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableObjLongConsumer<any,any>>;
 						/**
@@ -5107,7 +5034,6 @@ declare module org {
 						public static nop(): org.apache.commons.lang3.function.FailableObjLongConsumer<any,any>;
 						public accept(param0: T, param1: number): void;
 					}
-				}
 			}
 		}
 	}
@@ -5116,8 +5042,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailablePredicate<T, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailablePredicate<any,any>>;
 						/**
@@ -5147,7 +5072,6 @@ declare module org {
 						public static falsePredicate(): org.apache.commons.lang3.function.FailablePredicate<any,any>;
 						public static truePredicate(): org.apache.commons.lang3.function.FailablePredicate<any,any>;
 					}
-				}
 			}
 		}
 	}
@@ -5156,8 +5080,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableRunnable<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableRunnable<any>>;
 						/**
@@ -5169,7 +5092,6 @@ declare module org {
 						public constructor();
 						public run(): void;
 					}
-				}
 			}
 		}
 	}
@@ -5178,8 +5100,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableShortSupplier<E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableShortSupplier<any>>;
 						/**
@@ -5191,7 +5112,6 @@ declare module org {
 						public constructor();
 						public getAsShort(): number;
 					}
-				}
 			}
 		}
 	}
@@ -5200,8 +5120,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableSupplier<R, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableSupplier<any,any>>;
 						/**
@@ -5213,7 +5132,6 @@ declare module org {
 						public constructor();
 						public get(): R;
 					}
-				}
 			}
 		}
 	}
@@ -5222,8 +5140,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableToDoubleBiFunction<T, U, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableToDoubleBiFunction<any,any,any>>;
 						/**
@@ -5240,7 +5157,6 @@ declare module org {
 						public applyAsDouble(param0: T, param1: U): number;
 						public static nop(): org.apache.commons.lang3.function.FailableToDoubleBiFunction<any,any,any>;
 					}
-				}
 			}
 		}
 	}
@@ -5249,8 +5165,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableToDoubleFunction<T, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableToDoubleFunction<any,any>>;
 						/**
@@ -5267,7 +5182,6 @@ declare module org {
 						public static nop(): org.apache.commons.lang3.function.FailableToDoubleFunction<any,any>;
 						public applyAsDouble(param0: T): number;
 					}
-				}
 			}
 		}
 	}
@@ -5276,8 +5190,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableToIntBiFunction<T, U, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableToIntBiFunction<any,any,any>>;
 						/**
@@ -5294,7 +5207,6 @@ declare module org {
 						public applyAsInt(param0: T, param1: U): number;
 						public static nop(): org.apache.commons.lang3.function.FailableToIntBiFunction<any,any,any>;
 					}
-				}
 			}
 		}
 	}
@@ -5303,8 +5215,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableToIntFunction<T, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableToIntFunction<any,any>>;
 						/**
@@ -5321,7 +5232,6 @@ declare module org {
 						public applyAsInt(param0: T): number;
 						public static nop(): org.apache.commons.lang3.function.FailableToIntFunction<any,any>;
 					}
-				}
 			}
 		}
 	}
@@ -5330,8 +5240,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableToLongBiFunction<T, U, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableToLongBiFunction<any,any,any>>;
 						/**
@@ -5348,7 +5257,6 @@ declare module org {
 						public static nop(): org.apache.commons.lang3.function.FailableToLongBiFunction<any,any,any>;
 						public applyAsLong(param0: T, param1: U): number;
 					}
-				}
 			}
 		}
 	}
@@ -5357,8 +5265,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class FailableToLongFunction<T, E>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.FailableToLongFunction<any,any>>;
 						/**
@@ -5375,7 +5282,6 @@ declare module org {
 						public applyAsLong(param0: T): number;
 						public static nop(): org.apache.commons.lang3.function.FailableToLongFunction<any,any>;
 					}
-				}
 			}
 		}
 	}
@@ -5384,8 +5290,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class IntToCharFunction extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.IntToCharFunction>;
 						/**
@@ -5397,7 +5302,6 @@ declare module org {
 						public constructor();
 						public applyAsChar(param0: number): string;
 					}
-				}
 			}
 		}
 	}
@@ -5406,8 +5310,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class MethodInvokers extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.MethodInvokers>;
 						public static asBiConsumer(method: java.lang.reflect.Method): any /* any*/;
@@ -5420,7 +5323,6 @@ declare module org {
 						public static asFunction(method: java.lang.reflect.Method): any /* any*/;
 						public static asInterfaceInstance(interfaceClass: java.lang.Class<any>, method: java.lang.reflect.Method): any;
 					}
-				}
 			}
 		}
 	}
@@ -5429,14 +5331,12 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class Suppliers extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.Suppliers>;
 						public constructor();
 						public static get(supplier: any /* any*/): any;
 					}
-				}
 			}
 		}
 	}
@@ -5445,8 +5345,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class ToBooleanBiFunction<T, U>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.ToBooleanBiFunction<any,any>>;
 						/**
@@ -5458,7 +5357,6 @@ declare module org {
 						public constructor();
 						public applyAsBoolean(param0: T, param1: U): boolean;
 					}
-				}
 			}
 		}
 	}
@@ -5467,8 +5365,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class TriConsumer<T, U, V>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.TriConsumer<any,any,any>>;
 						/**
@@ -5483,7 +5380,6 @@ declare module org {
 						public accept(param0: T, param1: U, param2: V): void;
 						public andThen(after: org.apache.commons.lang3.function.TriConsumer<any,any,any>): org.apache.commons.lang3.function.TriConsumer<T,U,V>;
 					}
-				}
 			}
 		}
 	}
@@ -5492,8 +5388,7 @@ declare module org {
 declare module org {
 	export module apache {
 		export module commons {
-			export module lang3 {
-				export module function {
+			export module lang3.function {
 					export class TriFunction<T, U, V, R>  extends java.lang.Object {
 						public static class: java.lang.Class<org.apache.commons.lang3.function.TriFunction<any,any,any,any>>;
 						/**
@@ -5508,7 +5403,6 @@ declare module org {
 						public apply(param0: T, param1: U, param2: V): R;
 						public andThen(after: any /* any*/): org.apache.commons.lang3.function.TriFunction<any,any,any,any>;
 					}
-				}
 			}
 		}
 	}
